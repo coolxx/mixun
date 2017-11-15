@@ -231,6 +231,7 @@ header p{
 }
 .main-tab td a{
      display: inline-block;
+     vertical-align: middle;
      width: 3.05rem;
      height: 0.75rem;
      line-height:0.75rem;
@@ -719,6 +720,9 @@ header p{
     right: 0.325rem;
     z-index:3;
 }
+.to-left img,.to-right img{
+    width: 0.85rem
+}
 .two-show-box-mov{
     position: absolute;
     overflow: hidden;
@@ -793,6 +797,7 @@ header p{
     position: fixed;
     bottom: 0;
     height: 1.7rem;
+    z-index: 9999
 
 }
 .fix a{
